@@ -9,18 +9,18 @@ function fDesign(name, customize, price, image){
 	//create array of products
 	var fruitArray = [
 	//create new products with fDesign constructor
-	appDesign= new fDesign("Apple Design", true, 28, "img/fruit/apple.gif"),
-	banDesign= new fDesign("Banana Design", true, 15, "img/fruit/banana.png"),
-	papDesign= new fDesign("Papaya Design", true, 21, "img/fruit/papaya.png"),
-	graDesign= new fDesign("Grapes Design", false, 20, "img/fruit/grapes.png"),
-	manDesign= new fDesign("Mango Design", true, 22, "img/fruit/mango.jpg"),
-	kumDesign= new fDesign("Kumquat Design", false, 30, "img/fruit/kumquat.jpg"),
-	cocoDesign= new fDesign("Coconut Design", true, 30, "img/fruit/coconut.jpg"),
-	oraDesign= new fDesign("Orange Design", true, 17, "img/fruit/orange.jpg"),
-	avoDesign= new fDesign("Avocado Design", false, 28, "img/fruit/avocado.jpg"),
-	pomDesign= new fDesign("Pomegranate Design", true, 24, "img/fruit/pomegranate.png"),
-	figDesign= new fDesign("Fig Design", true, 32, "img/fruit/fig.jpg"),
-	cheDesign= new fDesign("Cherry Design", true, 21, "img/fruit/cherry.png")
+	appDesign= new fDesign("Apple", true, 28, "img/fruit/apple.gif"),
+	banDesign= new fDesign("Banana", true, 15, "img/fruit/banana.png"),
+	papDesign= new fDesign("Papaya", true, 21, "img/fruit/papaya.png"),
+	graDesign= new fDesign("Grapes", false, 20, "img/fruit/grapes.png"),
+	manDesign= new fDesign("Mango", true, 22, "img/fruit/mango.jpg"),
+	kumDesign= new fDesign("Kumquat", false, 30, "img/fruit/kumquat.jpg"),
+	cocoDesign= new fDesign("Coconut", true, 30, "img/fruit/coconut.jpg"),
+	oraDesign= new fDesign("Orange", true, 17, "img/fruit/orange.jpg"),
+	avoDesign= new fDesign("Avocado", false, 28, "img/fruit/avocado.jpg"),
+	pomDesign= new fDesign("Pom", true, 24, "img/fruit/pomegranate.png"),
+	figDesign= new fDesign("Fig", true, 32, "img/fruit/fig.jpg"),
+	cheDesign= new fDesign("Cherry", true, 21, "img/fruit/cherry.png")
 	]
 
 	//loop through fruitArray
